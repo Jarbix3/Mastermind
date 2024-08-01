@@ -32,7 +32,7 @@ module InstructionsText
 
       Would you like to be the 'code master' or the 'code guesser'?
 
-      Press '1' to be the MASTER
+      Press '1' to be the MASTER(computer will never lose)
 
       Press '2' to be the GUESSER
 
