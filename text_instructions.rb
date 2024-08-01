@@ -4,7 +4,7 @@
 module InstructionsText
   def instructions
     <<~HEREDOC
-      #{'      '}
+      
 
       Mastermind is a 1-player game against the computer.
 
@@ -18,11 +18,11 @@ module InstructionsText
       If the 'code guesser' can't guess the code before 12 turns, the 'code master' is the winner.
 
 
-      After each guess, there will be clues according to how many colours the 'code guesser' gets right:
+      After each guess, there will be clues according to how many numbers the 'code guesser' gets right:
 
-        (*)  In the case the color guessed is the right one and is in the correct position.
-      #{' '}
-        (?)  In the case the color guessed is the right one but is not in the correct position#{' '}
+        (*)  In the case the number guessed is the right one and is in the correct position.
+      
+        (?)  In the case the number guessed is the right one but is not in the correct position
 
         For example:
 
